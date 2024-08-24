@@ -3612,7 +3612,7 @@ end
         end
         game:GetService("TweenService"):Create(
             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,
-            TweenInfo.new(Distance/Speed,1,Enum.EasingStyle.Quad,Enum.EasingStyle.InOut,0, false, 0),
+            TweenInfo.new(Distance/Speed, Enum.EasingStyle.Linear),
             {CFrame = Pos}
         ):Play()
 end
@@ -3662,7 +3662,7 @@ end
         end
         game:GetService("TweenService"):Create(
             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,
-            TweenInfo.new(Distance/Speed,1,Enum.EasingStyle.Quad,Enum.EasingStyle.InOut,0, false, 0),
+            TweenInfo.new(Distance/Speed, Enum.EasingStyle.Linear),
             {CFrame = Pos}
         ):Play()
 end
